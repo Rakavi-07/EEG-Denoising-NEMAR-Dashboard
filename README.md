@@ -42,7 +42,7 @@ Open http://localhost:5173 (Vite proxies `/api` to port 8000).
 1. **Signal Lab** – pick group, input SNR, channel; overlay raw / noisy / denoised traces and PSDs.
 2. **Benchmark** – runs all 4 SNR levels x 6 configs x both groups; SNR gain, RMSE, PRD, r, band-power errors.
 3. **MDD Biomarkers** – FAA and TBR after each denoiser, MDD vs HC (Cohen's d).
-4. **GPU Compute** – measured CPU time vs simulated GPU end-to-end (3.92x) and device-resident (18.09x).
+4. **GPU Compute** – measured CPU time vs simulated GPU end-to-end (3.92x) and device-resident (18.09x) compute.
 
 ## 6. Optional: real NEMAR nm000114 data
 1. Download the BIDS dataset from nemar.org (dataset nm000114) to a local folder.
